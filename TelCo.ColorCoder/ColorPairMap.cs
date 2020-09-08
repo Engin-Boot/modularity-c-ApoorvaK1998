@@ -18,6 +18,7 @@ namespace TelCo.ColorCoder
                     ColorPairs pair = GetColorFromPairNumbers.GetColorFromPairNumber(pairno);
                     Result += "Pair number: " + pairno.ToString() + " " + "Color Pair: " + pair.ToString() + '\n';
                 }
+            Console.WriteLine("------");
                 return Result;
             }
         
