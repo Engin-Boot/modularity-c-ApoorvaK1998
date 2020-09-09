@@ -37,8 +37,8 @@ namespace TelCo.ColorCoder
             // If colors can not be found throw an exception
             if (majorIndex == -1 || minorIndex == -1)
             {
-                throw new ArgumentException(
-                    string.Format("Unknown Colors: {0}", pair.ToString()));
+               
+                    string.Format("Unknown Colors: {0}", pair.ToString());
             }
 
             // Compute pair number and Return  
