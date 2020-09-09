@@ -15,7 +15,7 @@ namespace TelCo.ColorCoder
                 String Result = null;
                 for (int pairno = 1; pairno <= totalCombinations; pairno++)
                 {
-                    ColorPairs pair = GetPairNumberFromColors.GetColorFromPairNumber(pairno);
+                    ColorPairs pair = GetColorFromPairNumbers.GetColorFromPairNumber(pairno);
                     Result += "Pair number: " + pairno.ToString() + " " + "Color Pair: " + pair.ToString() + '\n';
                 }
             Console.WriteLine("------");
