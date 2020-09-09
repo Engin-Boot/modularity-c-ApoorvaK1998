@@ -5,7 +5,7 @@ using static TelCo.ColorCoder.ColorPairs;
 
 namespace TelCo.ColorCoder
 {
-    public class GetPairNumberFromColors
+    public class GetPairNumberFromColor
     {
         
         public static int GetPairNumberFromColor(ColorPairs pair)
