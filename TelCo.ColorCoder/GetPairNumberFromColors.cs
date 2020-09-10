@@ -16,7 +16,7 @@ namespace TelCo.ColorCoder
             for (int i = 0; i < Program.colorMapMajor.Length; i++)
             {
                 ColorPairs color = new ColorPairs();
-                if (Program.colorMapMajor[i] == color.majorColor)
+                if (Program.colorMapMajor[i] == pair.majorColor)
                 {
                     majorIndex = i;
                     break;
@@ -28,7 +28,7 @@ namespace TelCo.ColorCoder
             for (int i = 0; i < Program.colorMapMinor.Length; i++)
             {
                 ColorPairs color = new ColorPairs();
-                if (Program.colorMapMinor[i] == color.minorColor)
+                if (Program.colorMapMinor[i] == pair.minorColor)
                 {
                     minorIndex = i;
                     break;
